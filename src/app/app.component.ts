@@ -11,4 +11,6 @@ export class AppComponent {
     search:new FormControl('')
   })
   title = 'SportsEvent';
+  user=false;
+  admin=true;
 }

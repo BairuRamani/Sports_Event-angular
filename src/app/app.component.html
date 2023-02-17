@@ -1,4 +1,9 @@
-<h1> Home Page </h1>
+<div *ngIf="user">
+  <h1>Hello user</h1>
+</div>
+<div *ngIf="admin">
+  <h1>Hello Admin</h1>
+</div>
  <nav class="navbar navbar-expand-sm bg-light">
   <div class="container-fluid">
      <ul class="navbar-nav">
