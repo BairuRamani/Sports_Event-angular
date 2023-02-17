@@ -1,0 +1,33 @@
+<h1> Home Page </h1>
+ <nav class="navbar navbar-expand-sm bg-light">
+  <div class="container-fluid">
+     <ul class="navbar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link" routerLink="eventlist">List of Events</a>
+        <router-outlet></router-outlet>
+
+      </li><br>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="addevent">Add Events</a>
+        <router-outlet></router-outlet>
+      </li><br>
+    
+    <li class="nav-item">
+      <a class="nav-link" routerLink="sportlist">List of Sports</a>
+      <router-outlet></router-outlet>
+    </li><br>
+
+    <li class="nav-item">
+      <a class="nav-link" routerLink="eventbyname">Event by name</a>
+      <router-outlet></router-outlet>
+    </li><br>
+
+    <li class="nav-item">
+      <a class="nav-link" routerLink="sportbyname">Sport by name</a>
+      <router-outlet></router-outlet>
+    </li>
+    
+    </ul>
+  </div>
+</nav>
